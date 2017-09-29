@@ -25,7 +25,7 @@ SECRET_KEY = 'w8@!=j#@6)+5_2)ii#ha_9rm86%hxjjq_@=cvyptx3eb@t%aeb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ivaderlab.unist.ac.kr"]
 
 
 # Application definition
