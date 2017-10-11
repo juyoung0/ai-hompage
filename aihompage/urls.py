@@ -11,5 +11,5 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^home/$', include('home.urls', namespace="home")),
     url(r'^admin/', include(admin.site.urls)),
-
+    url(r'^about/', views.about, name='about'),
 ]
