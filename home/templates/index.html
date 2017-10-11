@@ -300,17 +300,10 @@
     </div>
 
     <script>
-
-
-    $( "#about2" ).click(function() {
-        var tabs = $(".tab-pane");
-        tabs.addClass("fade");
-        $("#about2").removeClass("fade");
-    });
-
-    $( ".list-groups" ).click(function() {
-      $( ".tab-pane" ).empty();
-    });
+        $('.nav a').click(function(){
+            var parent = $(this).parent();
+            $('.nav li').not(parent).removeClass('active');
+        });
 
     </script>
 
