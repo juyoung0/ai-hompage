@@ -7047,3 +7047,7 @@ div > img {
 .home-div {
     background-image: url('/images/sea.jpg');
 }
+
+.card-container {
+  padding : 10px;
+}
